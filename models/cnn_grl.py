@@ -1,8 +1,8 @@
-from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Input, Concatenate
-from keras.models import Model
-from keras.optimizers import rmsprop
-from keras.callbacks import ReduceLROnPlateau, EarlyStopping, CSVLogger
-from keras.utils import plot_model
+from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Input, Concatenate
+from tensorflow.keras.models import Model
+from tensorflow.keras.optimizers import RMSprop  # Corrected import
+from tensorflow.keras.callbacks import ReduceLROnPlateau, EarlyStopping, CSVLogger
+from tensorflow.keras.utils import plot_model
 import numpy as np
 import os
 
